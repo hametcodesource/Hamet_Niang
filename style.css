@@ -111,9 +111,9 @@ h2 {
 div.separateur {
     background-color: #979797;
     height: 1px;
-    width: 150px;
+    width: 250px;
     position: relative;
-    left: 50%;
+    left: 30%;
     margin-left: -75px;
 }
 
