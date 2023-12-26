@@ -1,59 +1,869 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Jeu GALAXY</title>
-</head>
-<body>
-    <!--Header-->
-    <div class="portfolio-header">
-        <div class="text-avec-ligne-vertical" style="margin-left: 16px;margin-top: 22px; height: 40px;">
-            <p class="portfolio-header-title">
-                Hamet Niang
-            </p>
-        </div>
-        <a class="contact-button" style="position: absolute; right: 20px; top: 5px;" href="mailto: hametcomptepro@gmail.com?subject=Contact%20depuis%20hametniang.com">ME CONTACTER</a>
-    </div>
-    <!--SECTION GRISE TITRE-->
-    <div class="section section-grise1" style="padding-top: 20px;">
-        <a href="index.html" class="portfolio-back">Retour</a>
-        <div class="separateur" style="margin-top: -15px;"></div>
-        <h1 class="portfolio">Portfolio</h1>
-        <h2 class="portfolio">Jeu GALAXY</h2>
-        
-       
-    </div>
-    <!--SECTION CONTENU-->
-    <div class="section">
-        <div class="text-avec-ligne-vertical">
-        <p>
-            J’ai réalisé ce projet pour avoir la main sur l'interface graphique avec python.
-            <br><br>
+<!doctype html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+        <link rel="profile" href="https://gmpg.org/xfn/11">
+        <title>Projet 6: Classifiez automatiquement des biens de consommation &#8211;NIANG Hamet</title>
+        <meta name='robots' content='max-image-preview:large'/>
+        <link rel='dns-prefetch' href='//s.w.org'/>
+        <link rel="alternate" type="application/rss+xml" title="Emmanuel LEPLANOIS &raquo; Flux" href="https://emmanuel.leplanois.com/feed/"/>
+        <link rel="alternate" type="application/rss+xml" title="Emmanuel LEPLANOIS &raquo; Flux des commentaires" href="https://emmanuel.leplanois.com/comments/feed/"/>
+        <link rel="alternate" type="application/rss+xml" title="Emmanuel LEPLANOIS &raquo; Projet 2 : Analysez des données de systèmes éducatifs Flux des commentaires" href="https://emmanuel.leplanois.com/projet-2-analysez-des-donnees-de-systemes-educatifs/feed/"/>
+        <link rel='stylesheet' id='blocksy-dynamic-global-css' href='https://emmanuel.leplanois.com/wp-content/uploads/blocksy/css/global.css?ver=94003' media='all'/>
+        <link rel='stylesheet' id='wp-block-library-css' href='https://emmanuel.leplanois.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.4' media='all'/>
+        <link rel='stylesheet' id='ct-main-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/main.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='blocksy-ext-widgets-styles-css' href='https://emmanuel.leplanois.com/wp-content/plugins/blocksy-companion/framework/extensions/widgets/static/bundle/main.min.css?ver=1.8.9.2' media='all'/>
+        <link rel='stylesheet' id='blocksy-ext-cookies-consent-styles-css' href='https://emmanuel.leplanois.com/wp-content/plugins/blocksy-companion/framework/extensions/cookies-consent/static/bundle/main.min.css?ver=1.8.9.2' media='all'/>
+        <link rel='stylesheet' id='blocksy-ext-trending-styles-css' href='https://emmanuel.leplanois.com/wp-content/plugins/blocksy-companion/framework/extensions/trending/static/bundle/main.min.css?ver=1.8.9.2' media='all'/>
+        <link rel='stylesheet' id='bsfrt_frontend-css' href='https://emmanuel.leplanois.com/wp-content/plugins/read-meter/assets/min-css/bsfrt-frontend-css.min.css?ver=1.0.6' media='all'/>
+        <link rel='stylesheet' id='elementor-icons-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0' media='all'/>
+        <link rel='stylesheet' id='elementor-frontend-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.4' media='all'/>
+        <style id='elementor-frontend-inline-css'>
+            @font-face {
+                font-family: eicons;
+                src: url(https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);
+                src: url(https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");
+                font-weight: 400;
+                font-style: normal
+            }
 
-            Le projet galaxy, c'est un jeu en perspective ou l'utilisateur doit se déplacer en suivant un parcours.
-            
-            <br><br>
-            Le jeu est accessible à la fois sur ordinateur ou sur mobile IOS et Android.
-       
-     
-            <br><br>
-            <u>Technologies utilisées :</u> <b>PYTHON, KIVY</b> 
-        </p>
-        <div style="text-align: center;margin-top: 30px;">
-            <a href="https://github.com/hametcodesource/Galaxy"><img src="jeu_update.png" class="portfolio"></a>
-            <a style="display: block;margin-top:8px;"href="https://github.com/hametcodesource/Galaxy">Consulter le projet</a>
-        </div>
-        
+            .elementor-kit-44 {
+                --e-global-color-primary: #6EC1E4;
+                --e-global-color-secondary: #54595F;
+                --e-global-color-text: #7A7A7A;
+                --e-global-color-accent: #c89b3f;
+                --e-global-color-kadence1: #1C85E8;
+                --e-global-color-kadence2: #2B6CB0;
+                --e-global-color-kadence3: #000000;
+                --e-global-color-kadence4: #041329;
+                --e-global-color-kadence5: #4a5568;
+                --e-global-color-kadence6: #7d8697;
+                --e-global-color-kadence7: #DBE9F0;
+                --e-global-color-kadence8: #EFF8FA;
+                --e-global-color-kadence9: #FFFFFF;
+                --e-global-typography-primary-font-family: "Roboto";
+                --e-global-typography-primary-font-weight: 600;
+                --e-global-typography-secondary-font-family: "Roboto Slab";
+                --e-global-typography-secondary-font-weight: 400;
+                --e-global-typography-text-font-family: "Roboto";
+                --e-global-typography-text-font-weight: 400;
+                --e-global-typography-accent-font-family: "Roboto";
+                --e-global-typography-accent-font-weight: 500;
+            }
 
+            .elementor-kit-44.el-is-editing {
+                --global-palette1: #1C85E8;
+                --global-palette2: #2B6CB0;
+                --global-palette3: #000000;
+                --global-palette4: #041329;
+                --global-palette5: #4a5568;
+                --global-palette6: #7d8697;
+                --global-palette7: #c89b3f;
+                --global-palette8: #EFF8FA;
+                --global-palette9: #FFFFFF;
+            }
+
+            .elementor-section.elementor-section-boxed > .elementor-container {
+                max-width: 1140px;
+            }
+
+            .elementor-widget:not(:last-child) {
+                margin-bottom: 20px;
+            }
+
+            {
+            }
+
+            h1.entry-title {
+                display: var(--page-title-display);
+            }
+
+            @media(max-width: 1024px) {
+                .elementor-section.elementor-section-boxed > .elementor-container {
+                    max-width:700px;
+                }
+            }
+
+            @media(max-width: 767px) {
+                .elementor-section.elementor-section-boxed > .elementor-container {
+                    max-width:767px;
+                }
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-3bd1e5d {
+                --divider-border-style: solid;
+                --divider-color: #000;
+                --divider-border-width: 1px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-3bd1e5d .elementor-divider-separator {
+                width: 100%;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-3bd1e5d .elementor-divider {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-43682b7 > .elementor-widget-container {
+                margin: 6px 12px 0px 67px;
+                padding: 0px 17px 0px 0px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-04f8425 {
+                --divider-border-style: solid;
+                --divider-color: #000;
+                --divider-border-width: 1px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-04f8425 .elementor-divider-separator {
+                width: 100%;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-04f8425 .elementor-divider {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-3ac5472 {
+                --divider-border-style: solid;
+                --divider-color: #000;
+                --divider-border-width: 1px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-3ac5472 .elementor-divider-separator {
+                width: 100%;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-3ac5472 .elementor-divider {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-c5a055a > .elementor-widget-container {
+                padding: 21px 21px 21px 21px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-e8c7fd3 > .elementor-widget-container {
+                margin: 27px 0px 0px 0px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-80e7da2 {
+                --divider-border-style: solid;
+                --divider-color: #000;
+                --divider-border-width: 1px;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-80e7da2 .elementor-divider-separator {
+                width: 100%;
+            }
+
+            .elementor-2225 .elementor-element.elementor-element-80e7da2 .elementor-divider {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            div.text-avec-ligne-vertical {
+                border-left: 4px solid var(--color1);
+                padding-left: 8px;
+                height: 50px;
+                display: inline-block;
+
+            }
+
+          div.text-avec-ligne-vertical p {
+              margin-top: 0;
+          }
+          div.portfolio-header {
+              position: relative;
+              height: 90px;
+              background:url(header.jpg) no-repeat center/cover;
+          }
+          .portfolio-header-title{
+              font-size: 26px;
+              font-weight: bold;
+              color: white;
+              padding-top: 4px;
+              padding-left: 8px;
+          }
+          .portfolio-header-title{
+              font-size: 20px;
+              padding-top: 8px;
+              padding-left: 8px;
+          }
+
+          a.contact-button{
+              padding: 7px 15px;
+              margin-top: 22px;
+              font-size: 12px;
+          
+          }
+          a.contact-button-portfolio{
+              right: 12px;
+          }
+                  </style>
+        <link rel='stylesheet' id='font-awesome-5-all-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.4.4' media='all'/>
+        <link rel='stylesheet' id='font-awesome-4-shim-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.4.4' media='all'/>
+        <link rel='stylesheet' id='ct-page-title-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/page-title.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='ct-elementor-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/elementor-frontend.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='ct-sidebar-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/sidebar.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='ct-comments-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/comments.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='ct-posts-nav-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/posts-nav.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='ct-wpforms-styles-css' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/wpforms.min.css?ver=1.8.6.2' media='all'/>
+        <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8.4' media='all'/>
+        <link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all'/>
+        <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all'/>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.4.4' id='font-awesome-4-shim-js'></script>
+        <link rel="https://api.w.org/" href="https://emmanuel.leplanois.com/wp-json/"/>
+        <link rel="alternate" type="application/json" href="https://emmanuel.leplanois.com/wp-json/wp/v2/posts/2225"/>
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://emmanuel.leplanois.com/xmlrpc.php?rsd"/>
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://emmanuel.leplanois.com/wp-includes/wlwmanifest.xml"/>
+        <meta name="generator" content="WordPress 5.8.4"/>
+        <link rel="canonical" href="https://emmanuel.leplanois.com/projet-2-analysez-des-donnees-de-systemes-educatifs/"/>
+        <link rel='shortlink' href='https://emmanuel.leplanois.com/?p=2225'/>
+        <link rel="alternate" type="application/json+oembed" href="https://emmanuel.leplanois.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femmanuel.leplanois.com%2Fprojet-2-analysez-des-donnees-de-systemes-educatifs%2F"/>
+        <link rel="alternate" type="text/xml+oembed" href="https://emmanuel.leplanois.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femmanuel.leplanois.com%2Fprojet-2-analysez-des-donnees-de-systemes-educatifs%2F&#038;format=xml"/>
+        <noscript>
+            <link rel='stylesheet' href='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css'/>
+        </noscript>
+        <style type="text/css">
+            .entry-content .bsf-rt-reading-time {
+                background: #f2f2f2;
+                color: #333333;
+                font-size: 15px;
+                margin-top: 1px;
+                margin-right: 1px;
+                margin-bottom: 1px;
+                margin-left: 1px;
+                padding-top: 0.5em;
+                padding-right: 0.7em;
+                padding-bottom: 0.5em;
+                padding-left: 0.7em;
+                width: max-content;
+                display: block;
+                min-width: 100px;
+            }
+        </style>
+    </head>
+    <body class="post-template-default single single-post postid-2225 single-format-standard wp-custom-logo wp-embed-responsive elementor-default elementor-kit-44 elementor-page elementor-page-2225 ct-loading ct-elementor-default-template" data-link="type-2" data-prefix="single_blog_post" data-header="type-1:sticky" data-footer="type-1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+        <div id="main-container">
+          <div class="portfolio-header">
+            <div class="text-avec-ligne-vertical" style="margin-left: 16px;margin-top: 22px; height: 40px;">
+            </div>
         </div>
-    </div>
-    <!--FRAME-->
-    <div class="section">
-        <iframe src="contact-frame.html" scrlling="no"/>
-       </div>
-</body>
+            <main id="main" class="site-main hfeed" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+                <div class="ct-container" data-sidebar="right" data-vertical-spacing="top:bottom">
+                    <article id="post-2225" class="post-2225 post type-post status-publish format-standard has-post-thumbnail hentry category-openclassrooms">
+                        <div class="hero-section" data-type="type-1">
+                            <header class="entry-header">
+                                <h1 class="page-title" title="Projet 4: Anticipez les besoins en consommation de bâtiments" itemprop="headline">Projet 6: Classifiez automatiquement des biens de consommation</h1>
+                                <div class="page-description ct-hidden-sm">Projet 6: Classifiez automatiquement des biens de consommation	</div>
+                                <ul class="entry-meta" data-type="simple:slash">
+                                    <li class="meta-author" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+                                        <a href="#" tabindex="-1" class="ct-image-container-static ct-lazy">
+                                            <img data-ct-lazy="IMG_0906 (1).jpg" data-object-fit="~" width="25" height="25" style="height:25px" alt="Image par défaut">
+                                            <noscript>
+                                                <img src="IMG_0906 (1).jpg" data-object-fit="~" width="25" height="25" style="height:25px" alt="Image par défaut">
+                                            </noscript>
+                                        </a>
+                                        <a class="ct-meta-element-author" href="#" title="Articles par emmanuel" rel="author" itemprop="name">NIANG Hamet</a>
+                                    </li>
+                                    <li class="meta-categories" data-type="simple">
+                                        <a href="#" rel="tag" class="ct-term-10">OpenClassRooms Data Scientist</a>
+                                    </li>
+                                </ul>
+                            </header>
+                        </div>
+                        <div class="entry-content">
+                            <span class="bsf-rt-reading-time">
+                                <span class="bsf-rt-display-label" prefix="Temps lecture"></span>
+                                <span class="bsf-rt-display-time" reading_time="1"></span>
+                                <span class="bsf-rt-display-postfix" postfix="mins"></span>
+                            </span>
+                            <div id="bsf_rt_marker">
+                                <div data-elementor-type="wp-post" data-elementor-id="2225" class="elementor elementor-2225" data-elementor-settings="[]">
+                                    <div class="elementor-section-wrap">
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-7f65326 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f65326" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c692bf3" data-id="c692bf3" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-76e2df4 elementor-widget elementor-widget-image" data-id="76e2df4" data-element_type="widget" data-widget_type="image.default">
+                                                            <div class="elementor-widget-container">
+                                                                <img width="1024" height="747" src="P6.jpg" class="attachment-large size-large" alt="" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-2743124 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2743124" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2c7c05e" data-id="2c7c05e" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-3bd1e5d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3bd1e5d" data-element_type="widget" data-widget_type="divider.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-divider">
+                                                                    <span class="elementor-divider-separator"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-5eb89f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5eb89f2" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-348871d" data-id="348871d" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-7857e4a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7857e4a" data-element_type="section">
+                                                            <div class="elementor-container elementor-column-gap-default">
+                                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-37e6f16" data-id="37e6f16" data-element_type="column">
+                                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                                        <div class="elementor-element elementor-element-43682b7 elementor-widget elementor-widget-heading" data-id="43682b7" data-element_type="widget" data-widget_type="heading.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <h4 class="elementor-heading-title elementor-size-default">repertoire GITHUB</h4>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0e2371f" data-id="0e2371f" data-element_type="column">
+                                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                                        <div class="elementor-element elementor-element-ef1835c elementor-button-success elementor-widget elementor-widget-button" data-id="ef1835c" data-element_type="widget" data-widget_type="button.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="elementor-button-wrapper">
+                                                                                    <a href="#" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" style="background-color: #c89b3f;" role="button">
+                                                                                        <span class="elementor-button-content-wrapper">
+                                                                                            
+                                                                                            <span class="elementor-button-text">Jupyter + PDF   </span>
+                                                                                        </span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-91cb195 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="91cb195" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c5d92de" data-id="c5d92de" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-04f8425 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="04f8425" data-element_type="widget" data-widget_type="divider.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-divider">
+                                                                    <span class="elementor-divider-separator"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-b2c8937 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b2c8937" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6042068" data-id="6042068" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-7006082 elementor-widget elementor-widget-heading" data-id="7006082" data-element_type="widget" data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h4 class="elementor-heading-title elementor-size-default">Problématique</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-494a87f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="494a87f" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f26792a" data-id="f26792a" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-ab61154 elementor-widget elementor-widget-text-editor" data-id="ab61154" data-element_type="widget" data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                           <p>Dans le cadre d’une plateforme d’e-commerce, votre mission est de réaliser une première étude de faisabilité d’un moteur de classification d’articles basé sur une image et une description pour l’automatisation de l’attribution de la catégorie de l’article.
+                                                            Vous analyserez le jeu de données en réalisant un prétraitement des images et des descriptions des produits, une réduction de dimension, puis un clustering.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-badcd59 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="badcd59" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-294ea5d" data-id="294ea5d" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-3ac5472 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3ac5472" data-element_type="widget" data-widget_type="divider.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-divider">
+                                                                    <span class="elementor-divider-separator"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-244dba5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="244dba5" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e7d0852" data-id="e7d0852" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-ab7307c elementor-widget elementor-widget-heading" data-id="ab7307c" data-element_type="widget" data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h4 class="elementor-heading-title elementor-size-default">Déroulement du projet</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-8c3699a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8c3699a" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b42f489" data-id="b42f489" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-c5a055a elementor-widget elementor-widget-text-editor" data-id="c5a055a" data-element_type="widget" data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <br>
+                                                                <br>
+                                                                <br>
+                                                                <br>
+
+                                                                <p>Ce projet va permettre de nous initier au traitement NLP, au traitement d’image et à l’apprentissage profond.</p>
+                                                        
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d7a10fd" data-id="d7a10fd" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-e8c7fd3 elementor-widget elementor-widget-image" data-id="e8c7fd3" data-element_type="widget" data-widget_type="image.default">
+                                                            <div class="elementor-widget-container">
+                                                                <img src="p6_im.png" title="" alt=""/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                             
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-494a87f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="494a87f" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f26792a" data-id="f26792a" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-ab61154 elementor-widget elementor-widget-text-editor" data-id="ab61154" data-element_type="widget" data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <br>
+                                                                <p>Comme toujours, j’ai commencé par une EDA (Anlayse Exploratoire des Données).</p>
+                                                                <br>
+                                                                <p>Puis, j’ai traité les données de type texte (descritpion des articles) en elevant la ponctuation et les mots courants, puis en les passant dans uns algorithme TF-IDF (Term-Frequency – Inverse Document Frequency).
+                                                                    Enfin pour les images, j’ai comparé deux methodes :</p>
+                                                                <ul>
+                                                                    <li>SIFT + Clusterisation</li>
+                                                                    <li>Transfer Learning (VGG16) + clusterisation</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-ba7b251 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba7b251" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2f7e2eb" data-id="2f7e2eb" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-c9f6ce8 elementor-widget elementor-widget-image" data-id="c9f6ce8" data-element_type="widget" data-widget_type="image.default">
+                                                            <div class="elementor-widget-container">
+                                                                <img width="1024" height="574" src="P_6_15_ARI-final.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="P_6_15_ARI-final.jpg 1024w, P_6_15_ARI-final.jpg 300w, P_6_15_ARI-final.jpg 768w, P_6_15_ARI-final.jpg 1141w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-28cffa1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="28cffa1" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b84092d" data-id="b84092d" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-80e7da2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="80e7da2" data-element_type="widget" data-widget_type="divider.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-divider">
+                                                                    <span class="elementor-divider-separator"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-5c68278 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5c68278" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eeeb55b" data-id="eeeb55b" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-afa7b04 elementor-widget elementor-widget-heading" data-id="afa7b04" data-element_type="widget" data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container">
+                                                                <h3 class="elementor-heading-title elementor-size-default">Compétences acquises</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-66d7fa4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66d7fa4" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cacad11" data-id="cacad11" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-5156995 elementor-widget elementor-widget-text-editor" data-id="5156995" data-element_type="widget" data-widget_type="text-editor.default">
+                                                            <div class="elementor-widget-container">
+                                                                <ul>
+                                                                    <li>Prétraiter des données image pour obtenir un jeu de données exploitable</li>
+                                                                    <li>Mettre en œuvre des techniques de réduction de dimension</li>
+                                                                    <li>Représenter graphiquement des données à grandes dimensions</li>
+                                                                    <li>Prétraiter des données texte pour obtenir un jeu de données exploitable</li>
+                                                                    <li>Apprentissage profond et Transfer Learning</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="post-navigation ">
+                            <a href="P5.html" class="nav-item-prev">
+                                <figure class="ct-image-container   ct-lazy">
+                                    <img width="300" height="158" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" data-ct-lazy="P5.jpg" data-ct-lazy-set="P5.jpg 300w, P5.jpg 1024w, P5.jpg 768w, P5.jpg 1200w" data-object-fit="~" itemprop="image"/>
+                                    <noscript>
+                                        <img width="300" height="158" src="P5.jpg" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"  sizes="(max-width: 300px) 100vw, 300px"/>
+                                    </noscript>
+                                    <svg width="20px" height="15px" viewBox="0 0 20 15">
+                                        <polygon points="0,7.5 5.5,13 6.4,12.1 2.4,8.1 20,8.1 20,6.9 2.4,6.9 6.4,2.9 5.5,2 "/>
+                                    </svg>
+                                    <span class="ct-ratio" style="padding-bottom: 100%"></span>
+                                </figure>
+                                <div class="item-content">
+                                    <span class="item-label">
+                                        <span>Publication</span>
+                                        précédente						
+                                    </span>
+                                    <span class="item-title ct-hidden-sm">Projet 5: Segmentez des clients d'un site e-commerce</span>
+                                </div>
+                            </a>
+                            <a href="P7.html" class="nav-item-next">
+                                <div class="item-content">
+                                    <span class="item-label">
+                                        <span>Publication</span>
+                                        suivante						
+                                    </span>
+                                    <span class="item-title ct-hidden-sm">Projet 7: Implémentez un modèle de scoring</span>
+                                </div>
+                                <figure class="ct-image-container   ct-lazy">
+                                    <img width="292" height="300" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" sizes="(max-width: 292px) 100vw, 292px" data-ct-lazy="P7.jpg" data-ct-lazy-set="P7.jpg 292w, P7.jpg 613w" data-object-fit="~" itemprop="image"/>
+                                    <noscript>
+                                        <img width="292" height="300" src="P7.jpg" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" srcset="P7.jpg 292w, P7.jpg 613w" sizes="(max-width: 292px) 100vw, 292px"/>
+                                    </noscript>
+                                    <svg width="20px" height="15px" viewBox="0 0 20 15">
+                                        <polygon points="14.5,2 13.6,2.9 17.6,6.9 0,6.9 0,8.1 17.6,8.1 13.6,12.1 14.5,13 20,7.5 "/>
+                                    </svg>
+                                    <span class="ct-ratio" style="padding-bottom: 100%"></span>
+                                </figure>
+                            </a>
+                        </nav>
+                        <div id="bsf-rt-comments"></div>
+
+                    </article>
+                  
+                </div>
+                <section class="ct-trending-block ct-hidden-sm">
+                    <div class="ct-container" data-page="1">
+                        <h3 class="ct-block-title">
+                            Tendance
+				
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                <polyline points="17 6 23 6 23 12"></polyline>
+                            </svg>
+                        </h3>
+                        <a href="index.html">
+                            <div class="ct-image-container ct-lazy">
+                                <img width="150" height="150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" data-ct-lazy="IMG_0906 (1).jpg" data-object-fit="~" itemprop="image"/>
+                                <noscript>
+                                    <img width="150" height="150" src="IMG_0906 (1).jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy"/>
+                                </noscript>
+                                <span class="ct-ratio" style="padding-bottom: 100%"></span>
+                            </div>
+                            <span class="ct-item-title">Profile</span>
+                        </a>
+
+
+
+                        <a href="P5.html">
+                            <div class="ct-image-container ct-lazy">
+                                <img width="150" height="150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" data-ct-lazy="P5.jpg" data-ct-lazy-set="P5.jpg 150w, P5.jpg 300w, P5.jpg 1024w, P5.jpg 768w, P5.jpg 1152w" data-object-fit="~" itemprop="image"/>
+                                <noscript>
+                                    <img width="150" height="150" src="P5.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="P5.jpg 150w, P5.jpg 300w, P5.jpg 1024w, P5.jpg 768w, P5.jpg 1152w" sizes="(max-width: 150px) 100vw, 150px"/>
+                                </noscript>
+                                <span class="ct-ratio" style="padding-bottom: 100%"></span>
+                            </div>
+                            <span class="ct-item-title">Projet 5: Segmentez des clients d'un site e-commerce	</span>
+                        </a>
+                        <a href="P6.html">
+                            <div class="ct-image-container ct-lazy">
+                                <img width="150" height="150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" data-ct-lazy="P6.jpg" data-object-fit="~" itemprop="image"/>
+                                <noscript>
+                                    <img width="150" height="150" src="P6.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy"/>
+                                </noscript>
+                                <span class="ct-ratio" style="padding-bottom: 100%"></span>
+                            </div>
+                            <span class="ct-item-title">Projet 6: Classifiez automatiquement des biens de consommation</span>
+                        </a>
+                        <a href="P7.html">
+                            <div class="ct-image-container ct-lazy">
+                                <img width="150" height="150" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" data-ct-lazy="P7.jpg" data-ct-lazy-set="P7.jpg 150w, P7.jpg 300w, P7.jpg 768w, P7.jpg 864w" data-object-fit="~" itemprop="image"/>
+                                <noscript>
+                                    <img width="150" height="150" src="P7.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="P4.jpg 150w, P4.jpg 300w, P4.jpg 768w, P4.jpg
+                                     864w" sizes="(max-width: 150px) 100vw, 150px"/>
+                                </noscript>
+                                <span class="ct-ratio" style="padding-bottom: 100%"></span>
+                            </div>
+                            <span class="ct-item-title">Projet 7: Implémentez un modèle de scoring</span>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <footer class="ct-footer" data-id="type-1" itemscope="" itemtype="https://schema.org/WPFooter">
+                <div data-row="top">
+                    <div class="ct-container">
+                        <div data-column="copyright">
+                            <div class="ct-footer-copyright" data-id="copyright">
+                                <p>Copyright © 2023 NIANG Hamet.</p>
+                            </div>
+                        </div>
+                        <div data-column="socials">
+                            <div class="ct-footer-socials" data-id="socials">
+                                <div class="ct-social-box" data-icon-size="custom" data-color="custom" data-icons-type="rounded:solid">
+                                    <a href="mailto:hamettniang@gmail.com" data-network="email" aria-label="E-mail" rel="noopener">
+                                        <span class="ct-icon-container">
+                                            <svg class="ct-icon" width="20" height="20" viewBox="0 0 20 20" aria-label="Email Icon">
+                                                <path d="M10,10.1L0,4.7C0.1,3.2,1.4,2,3,2h14c1.6,0,2.9,1.2,3,2.8L10,10.1z M10,11.8c-0.1,0-0.2,0-0.4-0.1L0,6.4V15c0,1.7,1.3,3,3,3h4.9h4.3H17c1.7,0,3-1.3,3-3V6.4l-9.6,5.2C10.2,11.7,10.1,11.7,10,11.8z"/>
+                                            </svg>
+                                        </span>
+                                        <span class="ct-label" hidden="">E-mail</span>
+                                    </a>
+                                    <a href="https://github.com/hametcodesource" data-network="github" aria-label="GitHub" rel="noopener">
+                                        <span class="ct-icon-container">
+                                            <svg class="ct-icon" width="20" height="20" viewBox="0 0 20 20" aria-label="GitHub Icon">
+                                                <path d="M8.9,0.4C4.3,0.9,0.6,4.6,0.1,9.1c-0.5,4.7,2.2,8.9,6.3,10.5C6.7,19.7,7,19.5,7,19.1v-1.6c0,0-0.4,0.1-0.9,0.1c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C3.1,14.6,3,14.6,3,14.5c0-0.2,0.3-0.2,0.4-0.2c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C5.1,7.1,5,6.6,5,5.9c0-0.4,0-1,0.3-1.6c0,0,1.4,0,2.8,1.3C8.6,5.4,9.3,5.3,10,5.3s1.4,0.1,2,0.3c1.3-1.3,2.8-1.3,2.8-1.3C15,4.9,15,5.5,15,5.9c0,0.8-0.1,1.2-0.2,1.4c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3C20,4.4,14.9-0.3,8.9,0.4z"/>
+                                            </svg>
+                                        </span>
+                                        <span class="ct-label" hidden="">GitHub</span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/hamet-niang/" data-network="linkedin" aria-label="LinkedIn" rel="noopener">
+                                        <span class="ct-icon-container">
+                                            <svg class="ct-icon" width="20px" height="20px" viewBox="0 0 20 20" aria-label="LinkedIn Icon">
+                                                <path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"/>
+                                            </svg>
+                                        </span>
+                                        <span class="ct-label" hidden="">LinkedIn</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+       
+        <link rel='stylesheet' id='e-animations-css' href='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.4' media='all'/>
+        <script id='ct-scripts-js-extra'>
+            var ct_localizations = {
+                "ajax_url": "https:\/\/emmanuel.leplanois.com\/wp-admin\/admin-ajax.php",
+                "nonce": "3f49776468",
+                "public_url": "https:\/\/emmanuel.leplanois.com\/wp-content\/themes\/blocksy\/static\/bundle\/",
+                "rest_url": "https:\/\/emmanuel.leplanois.com\/wp-json\/",
+                "search_url": "https:\/\/emmanuel.leplanois.com\/search\/QUERY_STRING\/",
+                "show_more_text": "Afficher plus",
+                "more_text": "Plus",
+                "dynamic_js_chunks": [{
+                    "id": "blocksy_ext_trending",
+                    "selector": ".ct-trending-block [class*=\"ct-arrow\"]",
+                    "url": "https:\/\/emmanuel.leplanois.com\/wp-content\/plugins\/blocksy-companion\/framework\/extensions\/trending\/static\/bundle\/main.js",
+                    "trigger": "click"
+                }, {
+                    "id": "blocksy_account",
+                    "selector": ".ct-header-account[href*=\"account-modal\"], .must-log-in a",
+                    "url": "https:\/\/emmanuel.leplanois.com\/wp-content\/plugins\/blocksy-companion\/static\/bundle\/account.js",
+                    "trigger": "click"
+                }, {
+                    "id": "blocksy_dark_mode",
+                    "selector": "[data-id=\"dark-mode-switcher\"]",
+                    "url": "https:\/\/emmanuel.leplanois.com\/wp-content\/plugins\/blocksy-companion\/static\/bundle\/dark-mode.js",
+                    "trigger": "click"
+                }, {
+                    "id": "blocksy_sticky_header",
+                    "selector": "header [data-sticky]",
+                    "url": "https:\/\/emmanuel.leplanois.com\/wp-content\/plugins\/blocksy-companion\/static\/bundle\/sticky.js"
+                }, {
+                    "id": "blocksy_lazy_load",
+                    "selector": ".ct-lazy[class*=\"ct-image\"]",
+                    "url": "https:\/\/emmanuel.leplanois.com\/wp-content\/themes\/blocksy\/static\/bundle\/lazy-load.js"
+                }],
+                "dynamic_styles": {
+                    "lazy_load": "https:\/\/emmanuel.leplanois.com\/wp-content\/themes\/blocksy\/static\/bundle\/lazy-load.min.css",
+                    "search_lazy": "https:\/\/emmanuel.leplanois.com\/wp-content\/themes\/blocksy\/static\/bundle\/search-lazy.min.css"
+                },
+                "dynamic_styles_selectors": [{
+                    "selector": ".ct-panel",
+                    "url": "https:\/\/emmanuel.leplanois.com\/wp-content\/themes\/blocksy\/static\/bundle\/off-canvas.min.css"
+                }]
+            };
+        </script>
+        <script src='https://emmanuel.leplanois.com/wp-content/themes/blocksy/static/bundle/main.js?ver=1.8.6.2' id='ct-scripts-js'></script>
+        <script async src='https://emmanuel.leplanois.com/wp-content/plugins/blocksy-companion/framework/extensions/cookies-consent/static/bundle/main.js?ver=1.8.9.2' id='blocksy-ext-cookies-consent-scripts-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/comment-reply.min.js?ver=5.8.4' id='comment-reply-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/wp-embed.min.js?ver=5.8.4' id='wp-embed-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.4' id='elementor-webpack-runtime-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.4' id='elementor-frontend-modules-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.4' id='share-link-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+        <script id='elementor-frontend-js-before'>
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false,
+                    "isScriptDebug": false
+                },
+                "i18n": {
+                    "shareOnFacebook": "Partager sur Facebook",
+                    "shareOnTwitter": "Partager sur Twitter",
+                    "pinIt": "L\u2019\u00e9pingler",
+                    "download": "T\u00e9l\u00e9charger",
+                    "downloadImage": "T\u00e9l\u00e9charger une image",
+                    "fullscreen": "Plein \u00e9cran",
+                    "zoom": "Zoom",
+                    "share": "Partager",
+                    "playVideo": "Lire la vid\u00e9o",
+                    "previous": "Pr\u00e9c\u00e9dent",
+                    "next": "Suivant",
+                    "close": "Fermer"
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "responsive": {
+                    "breakpoints": {
+                        "mobile": {
+                            "label": "Mobile",
+                            "value": 767,
+                            "default_value": 767,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "mobile_extra": {
+                            "label": "Grand mobile",
+                            "value": 880,
+                            "default_value": 880,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "tablet": {
+                            "label": "Tablette",
+                            "value": 1024,
+                            "default_value": 1024,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet_extra": {
+                            "label": "Grande tablette",
+                            "value": 1200,
+                            "default_value": 1200,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "laptop": {
+                            "label": "Portable",
+                            "value": 1366,
+                            "default_value": 1366,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "widescreen": {
+                            "label": "\u00c9cran large",
+                            "value": 2400,
+                            "default_value": 2400,
+                            "direction": "min",
+                            "is_enabled": false
+                        }
+                    }
+                },
+                "version": "3.4.4",
+                "is_static": false,
+                "experimentalFeatures": {
+                    "e_dom_optimization": true,
+                    "a11y_improvements": true,
+                    "e_import_export": true,
+                    "additional_custom_breakpoints": true,
+                    "landing-pages": true,
+                    "elements-color-picker": true,
+                    "admin-top-bar": true
+                },
+                "urls": {
+                    "assets": "https:\/\/emmanuel.leplanois.com\/wp-content\/plugins\/elementor\/assets\/"
+                },
+                "settings": {
+                    "page": [],
+                    "editorPreferences": []
+                },
+                "kit": {
+                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                    "global_image_lightbox": "yes",
+                    "lightbox_enable_counter": "yes",
+                    "lightbox_enable_fullscreen": "yes",
+                    "lightbox_enable_zoom": "yes",
+                    "lightbox_enable_share": "yes",
+                    "lightbox_title_src": "title",
+                    "lightbox_description_src": "description"
+                },
+                "post": {
+                    "id": 2225,
+                    "title": "Projet%202%20%3A%20Analysez%20des%20donn%C3%A9es%20de%20syst%C3%A8mes%20%C3%A9ducatifs%20%E2%80%93%20Emmanuel%20LEPLANOIS",
+                    "excerpt": "2eme projet de la formation Data Scientist",
+                    "featuredImage": "https:\/\/emmanuel.leplanois.com\/wp-content\/uploads\/2021\/02\/EdStatsData_indicateur_global-1024x1024.png"
+                }
+            };
+        </script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.4' id='elementor-frontend-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.4' id='preloaded-modules-js'></script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/underscore.min.js?ver=1.13.1' id='underscore-js'></script>
+        <script id='wp-util-js-extra'>
+            var _wpUtilSettings = {
+                "ajax": {
+                    "url": "\/wp-admin\/admin-ajax.php"
+                }
+            };
+        </script>
+        <script src='https://emmanuel.leplanois.com/wp-includes/js/wp-util.min.js?ver=5.8.4' id='wp-util-js'></script>
+        <script id='wpforms-elementor-js-extra'>
+            var wpformsElementorVars = {
+                "captcha_provider": "recaptcha",
+                "recaptcha_type": "v2"
+            };
+        </script>
+        <script src='https://emmanuel.leplanois.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.6.9' id='wpforms-elementor-js'></script>
+    </body>
 </html>
-
